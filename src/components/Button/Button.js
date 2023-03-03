@@ -1,4 +1,6 @@
 const Button = (props) => {
+    console.log('render del boton')
+
     return <button 
                 onClick={props.handleClick}
                 style={{
